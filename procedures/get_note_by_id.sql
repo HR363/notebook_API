@@ -1,0 +1,6 @@
+CREATE OR ALTER PROCEDURE GetNoteById
+  @id INT
+AS
+BEGIN
+  SELECT * FROM Notes WHERE id = @id;
+END
